@@ -26,6 +26,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "React Essentials",
+    image: project1,
+    description:
+      "A site to learn and apply all the essential react features",
+    technologies: ["HTML", "CSS", "React"],
+    link:'https://react-essential-060698.web.app/'
+  },
+  {
     title: "E-Commerce Website",
     image: project1,
     description:

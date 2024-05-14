@@ -44,6 +44,9 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
+              <div className="w-full max-w-xl lg:w-3/4 items-center justify-center py-4 hover:text-slate-400">
+                <a href={project.link}>Check it out</a>
+              </div>
             </motion.div>
           </div>
         ))}
