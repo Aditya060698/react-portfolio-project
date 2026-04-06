@@ -3,13 +3,20 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like React, as well as back-end technologies like Java, Spring Boot, Node.js, MySQL and PostgreSQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a full-stack developer with 5+ years of experience building secure, scalable, and high-performance applications. My strongest work sits at the intersection of Java, Spring Boot, React, microservices, and distributed systems, where I focus on performance, resiliency, and clean system design.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 3 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I enjoy building software that holds up in production, from secure SPAs and backend APIs to scalable architecture for high-traffic systems. Over the last 5+ years, I have worked across Spring Boot, React.js, Node.js, PostgreSQL, Redis, AWS, Docker, and Kubernetes, with a strong focus on performance optimization, secure authentication, and resilient service design. I am especially interested in backend engineering, system design, and solving problems where architecture choices directly impact product reliability and growth.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "2024 - Present",
+    role: "Software Engineer 2",
+    company: "Vantive",
+    description: `Developed modular portlets using Spring MVC on Liferay DXP to support customizable enterprise applications, ensuring flexibility and maintainability. Optimized Oracle SQL queries and Java backend logic, achieving a 35% reduction in average response time. Actively contributed to the design of a scalable system architecture capable of handling increased user traffic and data throughput. Additionally, collaborated closely with team members and mentored two junior developers in Spring Boot development, accelerating their onboarding and enhancing overall delivery consistency.`,
+    technologies: ["Java", "Spring Boot", "SQL", "Liferay DXP"],
+  },
+  {
+    year: "2023 - 2024",
     role: "Developer",
     company: "Standard Chartered Global Business Solutions",
     description: `As a Full Stack Developer specializing in React.js and Spring Boot, I implemented Drools configuration for centralized rule management. I played a key role in crafting single-page applications (SPAs) using React, TypeScript, HTML, and CSS, integrating JWT authentication and Redux for robust state management. I designed and implemented a microservices architecture, showcasing expertise in Docker for containerization and Kubernetes for orchestration. Additionally, I effectively utilized Azure DevOps (ADO) services for version control, issue tracking, and project management, contributing to enhanced collaboration within the development team.`,
@@ -29,37 +36,37 @@ export const PROJECTS = [
     title: "React Essentials",
     image: project1,
     description:
-      "A site to learn and apply all the essential react features",
+      "A learning-focused React application built to practice core concepts such as component composition, state management, event handling, and reusable UI patterns.",
     technologies: ["HTML", "CSS", "React"],
-    link:'https://react-essential-060698.web.app/'
+    link: "https://react-essential-060698.web.app/",
+    linkLabel: "Live Demo",
   },
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
+    title: "Distributed API Gateway & Rate Limiter",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Built a scalable API gateway with distributed rate limiting using Redis. Implemented token bucket and sliding window strategies, per-user throttling, and fault-tolerant request handling to make backend traffic control more resilient under burst load.",
+    technologies: ["Spring Boot", "Redis", "React", "Docker", "Microservices"],
+    linkLabel: "Case Study Coming Soon",
+    note: "Architecture-led backend project",
   },
   {
-    title: "Portfolio Website",
+    title: "AI System Design Interviewer",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Developed an AI-powered system design interviewer that evaluates architecture answers, gives feedback on scalability and trade-offs, and simulates realistic interview scenarios using LLM-based prompt chaining.",
+    technologies: ["React", "Node.js", "Spring Boot", "LLM APIs", "Prompt Chaining"],
+    linkLabel: "Private Build",
+    note: "Resume project with no public demo yet",
   },
   {
-    title: "Blogging Platform",
+    title: "Resilient File Processing Pipeline",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Designed a backend processing pipeline for encrypted files from AWS S3 using Spring Batch and Jenkins scheduling. Focused on validation, reliability, and high-availability processing for enterprise-style workloads.",
+    technologies: ["Spring Boot", "Spring Batch", "AWS S3", "Jenkins", "SQL"],
+    linkLabel: "Enterprise Case Study",
+    note: "Based on production experience",
   },
 ];
 

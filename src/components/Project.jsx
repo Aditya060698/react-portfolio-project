@@ -1,5 +1,6 @@
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -44,8 +45,26 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
-              <div className="w-full max-w-xl lg:w-3/4 items-center justify-center py-4 hover:text-slate-400">
-                <a href={project.link}>Check it out</a>
+              <div className="flex flex-wrap items-center gap-4 py-4">
+                {project.link ? (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="border-b border-cyan-400 pb-1 text-cyan-300 transition hover:text-cyan-200"
+                  >
+                    {project.linkLabel || "View Project"}
+                  </a>
+                ) : (
+                  <span className="text-sm text-neutral-500">
+                    {project.linkLabel || "Case study coming soon"}
+                  </span>
+                )}
+                {project.note ? (
+                  <span className="text-sm text-neutral-500">
+                    {project.note}
+                  </span>
+                ) : null}
               </div>
             </motion.div>
           </div>
