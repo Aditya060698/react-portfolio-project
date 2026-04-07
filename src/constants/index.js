@@ -45,9 +45,10 @@ export const PROJECTS = [
     title: "Distributed API Gateway & Rate Limiter",
     image: project2,
     description:
-      "Built a scalable API gateway with distributed rate limiting using Redis. Implemented token bucket and sliding window strategies, per-user throttling, and fault-tolerant request handling to make backend traffic control more resilient under burst load.",
-    technologies: ["Spring Boot", "Redis", "React", "Docker", "Microservices"],
-    linkLabel: "Case Study Coming Soon",
+      "Engineered a distributed rate limiting system using Spring Boot and Redis with Fixed Window, Sliding Window, and Token Bucket strategies. Used Redis Lua scripting to prevent race conditions under concurrent traffic, and built a React dashboard with simulation and side-by-side algorithm comparison for visual analysis.",
+    technologies: ["Spring Boot", "Redis", "React", "Docker", "Render"],
+    link: "https://rateshield-frontend.onrender.com",
+    linkLabel: "Live Demo",
     note: "Architecture-led backend project",
   },
   {
