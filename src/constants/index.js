@@ -51,15 +51,17 @@ export const PROJECTS = [
     linkLabel: "Live Demo",
     note: "Architecture-led backend project",
   },
-  {
-    title: "AI System Design Interviewer",
-    image: project3,
-    description:
-      "Developed an AI-powered system design interviewer that evaluates architecture answers, gives feedback on scalability and trade-offs, and simulates realistic interview scenarios using LLM-based prompt chaining.",
-    technologies: ["React", "Node.js", "Spring Boot", "LLM APIs", "Prompt Chaining"],
-    linkLabel: "Private Build",
-    note: "Resume project with no public demo yet",
-  },
+ {
+  title: "AlgoMentor AI",
+  image: project3,
+  description:
+    "Built an AI-powered DSA and System Design practice platform that evaluates answers, retrieves relevant concepts with RAG, and generates structured interview-style feedback using multi-step LLM workflows.",
+  technologies: ["React", "Node.js", "Spring Boot", "LLM APIs", "RAG", "Prompt Chaining"],
+  link: "https://algomentor-ai-frontend.onrender.com",
+  linkLabel: "Live Demo",
+  note: "Full-stack AI practice platform for interview preparation",
+},
+
   {
     title: "Resilient File Processing Pipeline",
     image: project4,
