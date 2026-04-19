@@ -62,15 +62,26 @@ export const PROJECTS = [
   note: "Full-stack AI practice platform for interview preparation",
 },
 
-  {
-    title: "Resilient File Processing Pipeline",
-    image: project4,
-    description:
-      "Designed a backend processing pipeline for encrypted files from AWS S3 using Spring Batch and Jenkins scheduling. Focused on validation, reliability, and high-availability processing for enterprise-style workloads.",
-    technologies: ["Spring Boot", "Spring Batch", "AWS S3", "Jenkins", "SQL"],
-    linkLabel: "Enterprise Case Study",
-    note: "Based on production experience",
-  },
+{
+  title: "FitCart AI",
+  image: project4,
+  description:
+    "Built an AI-powered nutrition and supplement discovery platform with a React frontend, Spring Boot backend, and FastAPI AI service. Users can browse and compare products, apply advanced filters, explore review insights, and interact with AI-assisted recommendation and nutrition intelligence workflows.",
+  technologies: [
+    "React",
+    "Spring Boot",
+    "FastAPI",
+    "PostgreSQL",
+    "Redis",
+    "Render",
+    "Docker",
+    "RAG"
+  ],
+  linkLabel: "Live Demo",
+  link: "https://fitcart-web-kkqt.onrender.com/",
+  note: "Full-stack AI product with production-style architecture"
+}
+
 ];
 
 export const CONTACT = {
